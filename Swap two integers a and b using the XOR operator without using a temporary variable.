@@ -1,0 +1,7 @@
+START
+    INPUT a, b
+    a = a XOR b
+    b = a XOR b
+    a = a XOR b
+    PRINT a, b
+STOP
