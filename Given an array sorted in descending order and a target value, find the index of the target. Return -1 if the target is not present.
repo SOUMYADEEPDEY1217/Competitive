@@ -1,0 +1,17 @@
+START
+    INPUT array, target
+    low = 0
+    high = length(array) - 1
+    WHILE low <= high
+        mid = (low + high) / 2
+        IF array[mid] == target THEN
+            PRINT mid
+            STOP
+        ELSE IF array[mid] < target THEN
+            high = mid - 1
+        ELSE
+            low = mid + 1
+        END IF
+    END WHILE
+    PRINT -1
+STOP
