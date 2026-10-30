@@ -1,0 +1,12 @@
+START
+    INPUT array
+    CREATE empty HashSet
+    CREATE empty result list
+    FOR each element x in array
+        IF x NOT IN HashSet THEN
+            ADD x TO HashSet
+            ADD x TO result
+        END IF
+    END FOR
+    PRINT result
+STOP
