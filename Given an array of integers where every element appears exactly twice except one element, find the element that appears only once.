@@ -1,0 +1,8 @@
+START
+    INPUT array
+    result = 0
+    FOR each element x in array
+        result = result XOR x
+    END FOR
+    PRINT result
+STOP
